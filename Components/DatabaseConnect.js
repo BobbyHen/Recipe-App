@@ -6,13 +6,7 @@ export default class DatabaseConnect extends Component {
 
   componentWillMount(){
     const firebaseConfig = {
-      apiKey: "AIzaSyBTLwAIomLv6Jd9gWtssUMHsL4Ic0M8eY4",
-      authDomain: "recipedatabase-4b552.firebaseapp.com",
-      databaseURL: "https://recipedatabase-4b552.firebaseio.com",
-      projectId: "recipedatabase-4b552",
-      storageBucket: "recipedatabase-4b552.appspot.com",
-      messagingSenderId: "794972276386",
-      appId: "1:794972276386:web:ff7a72d43b675931"
+      // Database connection properties go here
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
