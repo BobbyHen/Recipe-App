@@ -5,7 +5,7 @@ import HomeScreen from './screens/HomeScreen';
 import Breakfast from './screens/Breakfast';
 import Lunch from './screens/Lunch';
 import Dinner from './screens/Dinner';
-import Dissert from './screens/Dissert';
+import Dessert from './screens/Dessert';
 import DatabaseConnect from './Components/DatabaseConnect';
 
 export default class Navigation extends Component {
